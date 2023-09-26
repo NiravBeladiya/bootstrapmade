@@ -35,6 +35,14 @@ $('.testimonial').owlCarousel({
 })
 
 
+// jss
+$(window).load(function(){
+    $('.loader-main').fadeOut(1000,function(){
+        $(this).remove();
+    });
+});
+
+
 /**
    * Init isotope layout and filters
    */
