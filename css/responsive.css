@@ -1,0 +1,112 @@
+@media (max-width:1440px){
+
+}
+
+@media (max-width:1200px){
+
+	.logo{
+		order: 1;
+	}
+
+	.header .red-btn{
+		order: 2;
+		margin-right: 20px;
+	}
+
+	 .header .menu-bar{
+		order: 3;
+	}
+
+	.toggle-menu{
+		display: flex !important;
+	}
+
+	body.menu_opan .menu-bar {
+	    position: fixed;
+	    overflow: hidden;
+	    inset: 0;
+	    background: rgba(33, 37, 41, 0.8);
+	}
+
+	body.menu_opan .menu-bar .nev-menu{
+		display: block !important;
+	}
+
+	body.menu_opan .toggle-menu{
+		position: absolute;
+		right: 15px;
+		top: 30px;
+		margin-right: 0;
+		z-index: 9999;
+	}
+	body.menu_opan .toggle-menu span{
+		background-color: transparent;
+	}
+
+	body.menu_opan .toggle-menu span:after{
+		height: 2px;
+		transform: rotate(45deg);
+		top: 0;
+	}
+
+	body.menu_opan .toggle-menu span:before{
+		transform: rotate(-45deg);
+		height: 2px;
+	}
+
+	.menu-bar .nev-menu{
+		display: none !important;
+		position: absolute;
+		inset: 60px 20px 20px 20px;
+		background-color: #fff;
+		padding: 10px 0;
+		z-index: 9999;
+		overflow: auto;
+		border-radius: 6px;
+		box-shadow: 0px 0px 30px rgba(33, 37, 41, 0.1);
+	}
+	.menu-bar ul li a{
+		color: #3a3939 !important;
+	}
+	.menu-bar ul li a.active{
+		color: #e84545 !important;
+	}
+}
+
+@media (max-width:992px){
+	
+}
+
+@media (max-width:768px){
+	.about .icon-boxes .col-md-6:nth-child(2) .icon-box{
+	    margin-top: 0;
+	}
+
+	.features .features-item .stack-back {
+	    max-width: 270px;
+	}
+
+	.faq .accordion {
+	    width: 100%;
+	    max-width: 100%;
+	}
+
+
+	.features .features-item .stack-front {
+	    max-width: 229px;
+	    top: 25%;
+	    left: 0;
+	}
+
+	.pricing .featured {
+	    transform: none;
+	}
+
+	.faq-left{
+		max-width: 100%;
+	}
+
+	.about .icon-boxes .col-md-6:nth-child(4) .icon-box {
+		margin-top: 0;
+	}
+}
